@@ -40,7 +40,7 @@ timerTask.delay_time = 100;//设置延迟执行时间
 浏览器中有个函数是专门用来处理延迟执行任务的，暂且称为`ProcessDelayTask`，它的主要逻辑如下：
 ```js
 
-void ProcessTimerTask(){
+void ProcessDelayTask(){
   //从delayed_incoming_queue中取出已经到期的定时器任务
   //依次执行这些任务
 }
